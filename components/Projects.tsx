@@ -30,6 +30,17 @@ const projects: Project[] = [
     technologies: ['NestJS', 'TypeScript', 'MongoDB', 'Mongoose', 'JWT', 'Swagger'],
     githubUrl: 'https://github.com/ngoguessfidele/nest_blog.git',
     category: 'backend'
+  }
+  ,
+  {
+    id: 'ngoga-portfolio',
+    title: 'Ngoga Portfolio Website',
+    description: 'A modern, responsive portfolio website built with Next.js, featuring project showcases, skills presentation, dark mode support, and professional contact integration. Demonstrates advanced frontend development and effective self-presentation.',
+    image: '/images/portfolio.PNG',
+    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Responsive Design'],
+    githubUrl: 'https://github.com/ngoguessfidele/ngoga_portfolio.git',
+    liveUrl: 'https://ngoga-portfolio.vercel.app/',
+    category: 'frontend'
   },
   {
     id: 'pineapple-island',
