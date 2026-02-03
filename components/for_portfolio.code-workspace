@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../../backend/nestjs/nest_blog"
+		},
+		{
+			"path": "../../../backend/nestjs/blog_client"
+		},
+		{
+			"path": "../../next/school_management"
+		},
+		{
+			"path": "../../next/pineapple_island"
+		},
+		{
+			"path": "../../../channels/mastery/shop_design"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

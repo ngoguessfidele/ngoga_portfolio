@@ -154,7 +154,7 @@ export default function Projects() {
             from scalable APIs to responsive user interfaces.
           </p>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/ngoguessfidele"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-gray-900 dark:bg-gray-700 text-white rounded-lg hover:bg-gray-800 transition-colors font-medium"
