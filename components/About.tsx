@@ -23,7 +23,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              I'm a passionate full-stack developer with over 3 years of experience building
+              I'm a passionate full-stack developer with 4 years of experience building
               modern web applications. My expertise spans both frontend and backend technologies,
               with a strong focus on React, Next.js, and NestJS.
             </p>
