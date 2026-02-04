@@ -2,6 +2,31 @@
 
 import { useState } from 'react';
 
+/**
+ * Navigation item structure for the header menu
+ */
+interface NavItem {
+  /** The anchor href for navigation */
+  href: string;
+  /** Display text for the navigation link */
+  label: string;
+}
+
+/**
+ * Header Component
+ *
+ * Fixed navigation header with responsive design.
+ * Features a hamburger menu for mobile devices and
+ * a horizontal navigation bar for desktop.
+ *
+ * @component
+ * @example
+ * ```tsx
+ * <Header />
+ * ```
+ *
+ * @returns A fixed header with navigation links
+ */
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

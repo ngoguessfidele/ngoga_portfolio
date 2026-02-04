@@ -1,3 +1,18 @@
+/**
+ * Hero Component
+ *
+ * The main landing section of the portfolio website.
+ * Displays the developer's name, title, brief introduction,
+ * and call-to-action buttons.
+ *
+ * @component
+ * @example
+ * ```tsx
+ * <Hero />
+ * ```
+ *
+ * @returns A full-screen hero section with gradient background
+ */
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">

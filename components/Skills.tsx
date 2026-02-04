@@ -1,5 +1,24 @@
+/**
+ * Skills Component
+ *
+ * Displays technical skills organized into three categories:
+ * - Frontend Development (blue theme)
+ * - Backend Development (green theme)
+ * - General Skills (purple theme)
+ *
+ * Each category shows skills as pill-shaped badges.
+ *
+ * @component
+ * @example
+ * ```tsx
+ * <Skills />
+ * ```
+ *
+ * @returns A grid of skill categories with technology badges
+ */
 export default function Skills() {
-  const frontendSkills = [
+  /** Frontend development technologies and frameworks */
+  const frontendSkills: string[] = [
     "HTML5", "CSS3/SCSS", "JavaScript ES6+", "React", "Next.js", "TypeScript",
     "Tailwind CSS", "State Management", "UI Testing", "Responsive Design",
     "Server-Side Rendering", "Accessibility", "SEO", "RESTful APIs", "Figma"

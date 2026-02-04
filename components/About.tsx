@@ -1,3 +1,18 @@
+/**
+ * About Component
+ *
+ * Displays personal biography and core expertise areas.
+ * Features a two-column layout on desktop with bio text
+ * and a list of key competencies.
+ *
+ * @component
+ * @example
+ * ```tsx
+ * <About />
+ * ```
+ *
+ * @returns The about section with bio and expertise list
+ */
 export default function About() {
   return (
     <section id="about" className="py-20 bg-white dark:bg-gray-900">

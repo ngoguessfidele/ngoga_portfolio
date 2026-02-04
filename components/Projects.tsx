@@ -1,16 +1,35 @@
 import Image from 'next/image';
 
+/**
+ * Project data structure
+ *
+ * Defines the shape of project objects displayed in the portfolio
+ */
 interface Project {
+  /** Unique identifier for the project */
   id: string;
+  /** Display title of the project */
   title: string;
+  /** Brief description of the project */
   description: string;
+  /** Path to the project screenshot image */
   image: string;
+  /** Array of technologies used in the project */
   technologies: string[];
+  /** URL to the GitHub repository */
   githubUrl: string;
+  /** Optional URL to the live demo */
   liveUrl?: string;
+  /** Project category for filtering */
   category: 'frontend' | 'backend' | 'fullstack';
 }
 
+/**
+ * Featured projects data
+ *
+ * Array of projects to be displayed in the portfolio.
+ * Each project includes metadata, technologies, and links.
+ */
 const projects: Project[] = [
     {
     id: 'school-management',
@@ -75,6 +94,24 @@ const projects: Project[] = [
   }
 ];
 
+/**
+ * Projects Component
+ *
+ * Displays a gallery of featured projects in a responsive grid layout.
+ * Each project card shows:
+ * - Project screenshot
+ * - Title and description
+ * - Technology badges (first 3 + count of remaining)
+ * - Links to GitHub and live demo
+ *
+ * @component
+ * @example
+ * ```tsx
+ * <Projects />
+ * ```
+ *
+ * @returns A grid of project cards with links
+ */
 export default function Projects() {
   return (
     <section id="projects" className="py-20 bg-white dark:bg-gray-900">

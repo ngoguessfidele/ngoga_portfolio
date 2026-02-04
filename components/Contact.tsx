@@ -2,6 +2,35 @@
 
 import { useState } from 'react';
 
+/**
+ * Form data structure for the contact form
+ */
+interface FormData {
+  /** User's name */
+  name: string;
+  /** User's email address */
+  email: string;
+  /** Message content */
+  message: string;
+}
+
+/**
+ * Contact Component
+ *
+ * A two-column contact section featuring:
+ * - Contact information (email, location, LinkedIn)
+ * - A functional contact form with validation
+ *
+ * Uses controlled form inputs with React useState.
+ *
+ * @component
+ * @example
+ * ```tsx
+ * <Contact />
+ * ```
+ *
+ * @returns Contact section with info and form
+ */
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
