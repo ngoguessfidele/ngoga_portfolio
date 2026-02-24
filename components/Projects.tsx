@@ -40,6 +40,17 @@ const projects: Project[] = [
     githubUrl: 'https://github.com/ngoguessfidele/school_management.git',
     liveUrl: 'https://school-management-lemon-five-54.vercel.app/',
     category: 'fullstack'
+  }
+,
+  {
+    id: 'video-conf',
+    title: 'Video Conference App',
+    description: 'A real-time video conferencing application built with Next.js and Stream Video SDK, featuring meeting rooms, recordings, scheduling, and user authentication.',
+    image: '/images/Video_conf.PNG',
+    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Stream Video'],
+    githubUrl: 'https://github.com/ngoguessfidele/video_conf',
+    liveUrl: 'https://video-conf-delta.vercel.app',
+    category: 'fullstack'
   },
   {
     id: 'nest-blog',
@@ -87,11 +98,12 @@ const projects: Project[] = [
     title: 'GPT-3 OpenAI Landing Page',
     description: 'A modern, responsive landing page showcasing GPT-3 and OpenAI capabilities, featuring interactive sections on chatbots, knowledgebase, education, and future possibilities. Built with clean design and smooth user experience.',
     image: '/images/modern.PNG',
-    technologies: ['React', 'CSS', 'JavaScript', 'Responsive Design'],
+    technologies: ['React', 'CSS', 'Jideo_confavaScript', 'Responsive Design'],
     githubUrl: 'https://github.com/ngoguessfidele/modern_ui_ux.git',
     liveUrl: 'https://modern-ui-ux-iota.vercel.app/',
     category: 'frontend'
   }
+  
 ];
 
 /**
